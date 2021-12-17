@@ -1,0 +1,31 @@
+.container {
+  background-image: url(../../images/background.jpg);
+  height: 100vh;
+
+}
+
+.field {
+  width: 20rem;
+  height: 17rem;  
+  margin-left: 3rem;
+  margin-top: 14rem;
+  border-radius: 1.8rem;
+  background-color: rgba(255,255,255,0.100);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  position: absolute;
+}
+
+.button {
+  top: 13rem;
+  position: relative;
+  margin-left: 5.7rem;
+  width: 9rem;  
+  height: 2.30rem;
+  border-radius: 10px;
+  background-color: #45597e;
+  color: #ffff;
+  // border: 2px solid #c3c3c3;
+  font-size: 1rem;
+}
+
