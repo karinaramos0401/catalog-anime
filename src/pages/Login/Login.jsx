@@ -1,20 +1,16 @@
 import React from 'react'
 import Button from '../../ui/Button/Button'
-import Logo from '../../images/pc-eyes.png'
-
-
+import '../../styles/_config.scss'
 import './Login.scss'
 
-const Login = ({onClick}) => (
+const Login = () => (
   <div className='container'>
     <div className='field'>
-      <Button className="button" onClick={onClick}/>
+      <Button className="button" />
     </div>
   </div>
 
 )
 
  
-
-
 export default Login
