@@ -9,7 +9,7 @@ const Card = ({title, subtitle, Image, imgDescription, url}) => (
     {title}
     {subtitle}
     
-    <Link to = {url}>asuhasuh</Link>
+    <Link to={url}>asuhasuh</Link>
 
   </div>
 )
