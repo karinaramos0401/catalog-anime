@@ -14,7 +14,4 @@ const Login = ({onClick}) => (
 
 )
 
- 
-
-
 export default Login
