@@ -1,12 +1,16 @@
-import React from 'react'; 
-import { Link } from "react-router-dom";
+import React from 'react'
+import Button from '../../ui/Button/Button'
+import '../../styles/_config.scss'
+
+import './Login.scss'
 
 const Login = () => (
-  <div>
-    <h1>Login</h1>
-
-    <Link to="/">Home</Link>
+  <div className='container'>
+    <div className='field'>
+      <Button className="button" />
+    </div>
   </div>
-);
 
-export default Login; 
+)
+
+export default Login

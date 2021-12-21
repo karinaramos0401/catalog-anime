@@ -1,0 +1,24 @@
+@import  '../../styles/variables';
+
+.container {
+  background-image: url(../../images/background.jpg);
+  height: 100vh;
+
+}
+
+.field {
+  width: 20rem; 
+  height: 17rem;  
+  margin-left: 3rem;
+  margin-top: 14rem;
+  border-radius: 1.8rem;
+  background-color: $dark-gunmetal;
+  position: absolute;
+
+  @media(min-width: $md) { //usar variável depois. não estou conseguindo colocar 
+    left: 31rem ;
+  }
+}
+
+
+
