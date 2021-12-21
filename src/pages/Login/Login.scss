@@ -1,4 +1,4 @@
-@import  '../../styles/variables';
+@import '../../styles/_config.scss';
 
 .container {
   background-image: url(../../images/background.jpg);
@@ -7,13 +7,13 @@
 }
 
 .field {
-  width: 20rem; 
+  background-color: $dark-gunmetal;
+  border-radius: 1.8rem;
   height: 17rem;  
   margin-left: 3rem;
   margin-top: 14rem;
-  border-radius: 1.8rem;
-  background-color: $dark-gunmetal;
   position: absolute;
+  width: 20rem; 
 
   @media(min-width: $md) { //usar variável depois. não estou conseguindo colocar 
     left: 31rem ;

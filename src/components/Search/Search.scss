@@ -1,2 +1,16 @@
-@import '../../styles/variables';
+@import '../../styles/_config.scss';
 
+
+.pesquisa {
+  margin-top: px-to-rem(40);
+  height: px-to-rem(40);
+  width: px-to-rem(350);
+  border-radius: px-to-rem(16);
+}
+
+.lupa {
+  width: px-to-rem(22);
+  height: px-to-rem(22);
+  transform: translate(151%, 39%);
+
+}

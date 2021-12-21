@@ -1,15 +1,16 @@
 import React from 'react'
-import '../../styles/_config.scss'
 
-import Lupa from '../../images/lupa.png'
+import Lupa from '../../images/loupe.png'
 
-import '/Search.scss'
+import './Search.scss'
 
 const Search = ({type = 'search', placeholder}) => (
     <div>
-      <img ClassName="lupa" src={Lupa} alt="lupa" />
-      <input ClassName='pesquisa' type={type}
-      placeholder={placeholder} />
+      <h1>hello, fulano</h1>
+      <p>Let's watch animes together</p>
+      <img className="lupa" src={Lupa} alt="lupa" />
+      <input className='pesquisa' type={type}
+      placeholder={placeholder} />     
     </div>    
 )
 
