@@ -7,7 +7,7 @@ import './Login.scss'
 const Login = () => (
   <div className='container'>
     <div className='field'>
-      <Button className="button" />
+      <Button className="button"/>
     </div>
   </div>
 

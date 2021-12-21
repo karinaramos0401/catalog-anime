@@ -1,8 +1,11 @@
 import React from 'react'
 
-const Home = () => (
+import Search from '../../'
 
-<div>Home</div>
+const Home = () => (
+ 
+
+  
 
 )
 
