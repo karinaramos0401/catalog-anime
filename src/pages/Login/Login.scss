@@ -15,22 +15,10 @@
   background-color: $dark-gunmetal;
   position: absolute;
 
-  @media(min-width: 768px) { //usar variável depois. não estou conseguindo colocar 
+  @media(min-width: $md) { //usar variável depois. não estou conseguindo colocar 
     left: 31rem ;
   }
 }
 
-.button {
-  top: 13rem;
-  position: relative;
-  margin-left: 5.7rem;
-  width: 9rem;  
-  height: 2.30rem;
-  border-radius: 10px;
-  background-color: $purple;
-  color: #ffff;
-  font-size: 1rem;
 
-
-}
 
