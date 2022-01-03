@@ -1,14 +1,14 @@
 @import '../../styles/_config.scss';
 
-// * {
-//   background-color: $black;
-// }
+* {
+  background-color: $black;
+}
 
-// .icon {
-//   width: px-to-rem(100);
-//   height: px-to-rem(100);
-//   left: 300px;
-// }
+.icon {
+  width: px-to-rem(100);
+  height: px-to-rem(100);
+  left: 300px;
+}
 
 .welcome, .subtitle {
   padding-left: px-to-rem(29);

@@ -1,9 +1,10 @@
 import React from 'react'
 
+import './Carousel.scss'
 
 const Carousel = ({children}) => (
 
-  <ul>
+  <ul className="carousel">
     {children}
   </ul>
 
