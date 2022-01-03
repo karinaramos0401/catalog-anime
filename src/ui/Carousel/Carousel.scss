@@ -3,4 +3,6 @@
 
 .carousel {
   display: flex;
+  margin-left: px-to-rem(30);
+  overflow-x: scroll;
 }
