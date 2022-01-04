@@ -17,10 +17,16 @@
   margin-left: px-to-rem(32);
   width: px-to-rem(133);
   height: px-to-rem(230);
+  margin-bottom: px-to-rem(16);
 }
 
 .card__title {
   display: flex;
   flex-direction: column;
 
+}
+
+.items {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

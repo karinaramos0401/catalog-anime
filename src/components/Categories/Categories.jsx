@@ -36,7 +36,7 @@ const items = [
         }
       </Carousel>
 
-      <ul>      
+      <ul className='items'>      
         {
             items.map((item) => (
             <li>    
