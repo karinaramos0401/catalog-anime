@@ -1,16 +1,19 @@
 import React from 'react'; 
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import './Card.scss';
 
-const Card = ({title, subtitle, Image, imgDescription, url}) => (
-  <div>
-    <img src={Image} alt={imgDescription} />
-    {title}
-    {subtitle}
-    
-    <Link to={url}>asuhasuh</Link>
-
+const Card = ({coverImage, title, score, seasonYear}) => (
+  <div className="card">
+    <img className="card__poster"src={coverImage} alt="poster" />
+    <div className="footer">
+      <div className="card__title">
+        <span>{title}</span>
+        {/* <img src="./star.svg" alt="star icon" /> */}
+        <span>{score}</span>
+      </div>
+      <span>{seasonYear}</span>
+    </div>
   </div>
 )
 

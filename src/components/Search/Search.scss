@@ -8,18 +8,19 @@
   width: px-to-rem(100);
   height: px-to-rem(100);
   left: 300px;
+
 }
 
 .welcome, .subtitle {
   padding-left: px-to-rem(29);
   color: $white;
+
 }
 .welcome::before {
   margin-top: px-to-rem(21);
   color: $light-lilac;
   content: "Hello";
 
-  
 }
 
 .pesquisa {
@@ -33,7 +34,9 @@
   border: transparent;
   background-color: rgba(68, 56, 56, 0.466);
 
-  
+  @media (min-width: $md) {
+    width: px-to-rem(500);
+  }
 }
 
 .pesquisa:focus {
