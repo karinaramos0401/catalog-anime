@@ -13,7 +13,7 @@
 }
 
 .card {
-  margin-top: px-to-rem(27);
+  margin-top: px-to-rem(30);
   margin-left: px-to-rem(32);
   width: px-to-rem(133);
   height: px-to-rem(230);
@@ -29,4 +29,9 @@
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.card__title {
+  font-family: $font-family;
+  font-weight: 400;
 }

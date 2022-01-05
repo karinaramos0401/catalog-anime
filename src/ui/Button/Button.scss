@@ -14,6 +14,8 @@
     border-radius: px-to-rem(16);
     border: transparent;
     transition: 200ms;
+    font-family: $font-family;
+    font-weight: 400;
   }  
 
   &--dark:hover {
