@@ -3,7 +3,7 @@ import React from 'react'
 import './Button.scss'
 
 const Button = () => (
-  <button className='button'>Login</button>
+  <button className="button">Login</button>
 )
 
 
