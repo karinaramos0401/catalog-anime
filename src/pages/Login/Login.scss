@@ -1,13 +1,14 @@
 @import '../../styles/_config.scss';
 
 .container {
-  background-image: url(../../images/background.jpg);
+  // background-image: url(../../images/background.jpg);
   height: 100vh;
+  background-color: #12151C;
 
 }
 
 .field {
-  background-color: $black;
+  background-color: $light-lilac;
   border-radius: 1.8rem;
   height: 17rem;  
   margin-left: 3rem;

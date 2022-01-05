@@ -5,9 +5,12 @@ import './Button.scss'
 const Button = ({children, variant}) => {
   const classes =  variant === 'dark' ? "button button--dark " : "button"
   return (
-  <button className={classes}>
+    <div>
+    <h1 className='welcome__login'>Welcome to AnimeFlix</h1>
+    <button className={classes}>
     {children}
   </button>
+    </div>
 )
 
  }
