@@ -15,10 +15,12 @@
   position: absolute;
   width: 20rem; 
 
-  @media(min-width: $md) { //usar variável depois. não estou conseguindo colocar 
-    left: 31rem ;
-  }
-}
+  @media(min-width: $md) {
+    left: 31rem;
+
+    
+  }}
+
 
 
 

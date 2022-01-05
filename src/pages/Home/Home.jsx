@@ -5,7 +5,7 @@ import Search from '../../components/Search/Search'
 const Home = () => (
   <>
     <Search
-    type='search' placeholder='Search'
+    type="search" placeholder="Search"
     />
     <Categories/>
   </>
