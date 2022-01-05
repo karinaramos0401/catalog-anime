@@ -1,0 +1,50 @@
+@import '../../styles/_config.scss';
+
+* {
+  background-color: $black;
+}
+
+// .icon {
+//   width: px-to-rem(100);
+//   height: px-to-rem(100);
+//   left: 300px;
+// }
+
+.title, .subtitle {
+  padding-left: px-to-rem(29);
+  color: $white;
+}
+.title--emph {
+  margin-top: px-to-rem(21);
+  color: $light-lilac;
+  
+
+  
+}
+
+.search {
+  font-size: px-to-rem(17);
+  padding-left: px-to-rem(40);
+  margin-top: px-to-rem(40);
+  height: px-to-rem(40);
+  width: px-to-rem(350);
+  border-radius: px-to-rem(16);
+  color: $white;
+  border: transparent;
+  background-color: rgba(68, 56, 56, 0.466);
+
+  
+}
+
+.search:focus {
+  outline-color:  $lilac;
+}
+
+
+.magnifyingGlass {
+  width: px-to-rem(22);
+  height: px-to-rem(22);
+  transform: translate(151%, 31%);
+
+}
+
