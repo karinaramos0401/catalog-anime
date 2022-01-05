@@ -5,21 +5,21 @@ body {
 }
 
 .icon {
-  width: px-to-rem(100);
   height: px-to-rem(100);
   left: 300px;
+  width: px-to-rem(100);
 
 }
 
 .title {
-  margin-top: px-to-rem(15); 
   font-family: $font-family;
   font-weight: 700;
+  margin-top: px-to-rem(15); 
 }
 
 .title, .subtitle {
-  padding-left: px-to-rem(29);
   color: $white;
+  padding-left: px-to-rem(29);
 
 }
 
@@ -36,17 +36,17 @@ body {
 }
 
 .search {
-  font-size: px-to-rem(17);
-  padding-left: px-to-rem(40);
-  margin-top: px-to-rem(15);
-  height: px-to-rem(40);
-  width: px-to-rem(350);
-  border-radius: px-to-rem(16);
-  color: $white;
-  border: transparent;
   background-color: rgba(68, 56, 56, 0.466);
+  border-radius: px-to-rem(16);
+  border: transparent;
+  color: $white;
   font-family: $font-family;
+  font-size: px-to-rem(17);
   font-weight: 400;
+  height: px-to-rem(40);
+  margin-top: px-to-rem(15);
+  padding-left: px-to-rem(40);
+  width: px-to-rem(350);
 
   @media (min-width: $md) {
     width: px-to-rem(500);
@@ -59,9 +59,9 @@ body {
 
 
 .magnifyingGlass {
-  width: px-to-rem(22);
   height: px-to-rem(22);
   transform: translate(151%, 31%);
+  width: px-to-rem(22);
 
 }
 
