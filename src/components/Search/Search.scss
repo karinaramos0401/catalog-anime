@@ -1,39 +1,56 @@
 @import '../../styles/_config.scss';
 
-* {
+body {
   background-color: $black;
 }
 
-// .icon {
-//   width: px-to-rem(100);
-//   height: px-to-rem(100);
-//   left: 300px;
-// }
+.icon {
+  width: px-to-rem(100);
+  height: px-to-rem(100);
+  left: 300px;
+
+}
+
+.title {
+  margin-top: px-to-rem(15); 
+  font-family: $font-family;
+  font-weight: 700;
+}
 
 .title, .subtitle {
   padding-left: px-to-rem(29);
   color: $white;
-}
-.title--emph {
-  margin-top: px-to-rem(21);
-  color: $light-lilac;
-  
 
+}
+
+.subtitle {
+  font-family: $font-family;
+  font-weight: 400;
+  margin-bottom: px-to-rem(16);
+
+}
+
+.title--emph {
+  color: $light-lilac;
   
 }
 
 .search {
   font-size: px-to-rem(17);
   padding-left: px-to-rem(40);
-  margin-top: px-to-rem(40);
+  margin-top: px-to-rem(15);
   height: px-to-rem(40);
   width: px-to-rem(350);
   border-radius: px-to-rem(16);
   color: $white;
   border: transparent;
   background-color: rgba(68, 56, 56, 0.466);
+  font-family: $font-family;
+  font-weight: 400;
 
-  
+  @media (min-width: $md) {
+    width: px-to-rem(500);
+  }
 }
 
 .search:focus {

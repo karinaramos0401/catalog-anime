@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react' // quando é jsx não precisa importar o react
 import Button from '../../ui/Button/Button'
 import '../../styles/_config.scss'
 
