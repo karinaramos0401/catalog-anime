@@ -6,4 +6,17 @@
   margin-left: px-to-rem(30);
   overflow-x: scroll;
   
+  
+
+  @media(min-width: $md) {
+      &::-webkit-scrollbar {
+      height: 5px;
+      background-color: grey;
+      border-radius: 10px;
+     
+    }  
+  }
+
 }
+
+
