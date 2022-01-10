@@ -5,7 +5,7 @@ import Button from '../../ui/Button/Button'
 
 import './Genres.scss'
 
-const Genres = ({genres}) => {
+const Genres = ({genres, handleFilter}) => {
   return (
     <section>
       <h2 className="subtitle">Categories</h2>
@@ -13,7 +13,7 @@ const Genres = ({genres}) => {
         {
           genres.map((genre) => (
               <li className="category" key={genre}> 
-                <Button className='button' variant='dark'>{genre}</Button>
+                <Button className='button' variant='dark' onClick={() => handleFilter({genre})}>{genre}</Button>
               </li>
           ))
         }

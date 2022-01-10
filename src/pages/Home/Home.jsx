@@ -13,7 +13,7 @@ const Home = () => {
   const [genres, setGenres] = React.useState([]) 
   
   const handleFetchSearch = async (search) => { // pega os dados da API e salva os dados no estado
-    const data = await getAnimes({search}) 
+    const data = await getAnimes({...search}) 
     const newAnimes = data.data.AnimeSearch.media
     setAnimes([
      ...newAnimes
@@ -30,9 +30,10 @@ const Home = () => {
 
   const handleSearchSubmit = async (event) => { //página filtrada quando submete o formulário
     event.preventDefault()
-    handleFetchSearch(searchTerm)
+    handleFetchSearch({search: searchTerm})
     
   }
+
 
   React.useEffect(() => { // página inicial sem filtrar
    handleFetchSearch()
@@ -53,6 +54,7 @@ const Home = () => {
     />
     <Genres
       genres={genres}
+      handleFilter={handleFetchSearch}
     />
     <Animes
     items={animes}
