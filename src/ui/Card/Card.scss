@@ -1,23 +1,23 @@
 @import '../../styles/config'; 
 
 .card__poster {
-  width: px-to-rem(130);
-  height: px-to-rem(195);
   border-radius: 10px;
+  height: px-to-rem(195);
+  width: px-to-rem(130);
 }
 
 .footer {
+  color: $white;
   display: flex;
   justify-content: space-between;
-  color: $white;
 }
 
 .card {
-  margin-top: px-to-rem(30);
-  margin-left: px-to-rem(32);
-  width: px-to-rem(133);
   height: px-to-rem(230);
   margin-bottom: px-to-rem(16);
+  margin-left: px-to-rem(32);
+  margin-top: px-to-rem(30);
+  width: px-to-rem(133);
 }
 
 .card__title {
@@ -29,6 +29,11 @@
 .items {
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @media(min-width: $md) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 .card__title {

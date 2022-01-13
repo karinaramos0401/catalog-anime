@@ -1,21 +1,25 @@
 @import  '../../styles/config';
 
 .button {
-  background-color: $purple;
+  // margin-left: px-to-rem(60);
+  // margin-top: px-to-rem(100);
+  background-color: $black;
   border-radius: 10px;
   color: #ffff;
   font-size: 1rem;
-  height: 2.30rem;
-  width: 9rem;  
+  height: px-to-rem(50);
+  width: px-to-rem(192);  
 
 
   &--dark {
     background-color: rgba(68, 56, 56, 0.466);
     border-radius: px-to-rem(16);
     border: transparent;
-    transition: 200ms;
     font-family: $font-family;
+    font-size: px-to-rem(20);
     font-weight: 400;
+    transition: 200ms;
+    width: px-to-rem(150);
   }  
 
   &--dark:hover {

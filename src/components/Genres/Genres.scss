@@ -1,12 +1,12 @@
 @import '../../styles/config'; 
 
 .subtitle{
-  margin-top: px-to-rem(26);
-  margin-left: px-to-rem(3);
   color: $white;
-  margin-bottom: px-to-rem(26);
   font-family: $font-family;
   font-weight: 400;
+  margin-bottom: px-to-rem(26);
+  margin-left: px-to-rem(3);
+  margin-top: px-to-rem(26);
 }
 
 

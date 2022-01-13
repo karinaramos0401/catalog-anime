@@ -6,8 +6,10 @@ import './Login.scss'
 
 const Login = () => (
   <div className="container">
-    <div className="field">
+    <div className="welcome__container">
+      <h1 className="welcome__title">Welcome to AnimeFlix</h1>
       <Button className="button" name="login"/>
+       
     </div>
   </div>
 
