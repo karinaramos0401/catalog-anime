@@ -10,7 +10,5 @@ const getGenres = () => {
   return connect(query)
 }
 
-
-export default getGenres
-
+export default getGenres;
 
