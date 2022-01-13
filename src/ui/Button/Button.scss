@@ -16,7 +16,7 @@
     border-radius: px-to-rem(16);
     border: transparent;
     font-family: $font-family;
-    font-size: 20px;
+    font-size: px-to-rem(20);
     font-weight: 400;
     transition: 200ms;
     width: px-to-rem(150);
