@@ -24,4 +24,4 @@ const getAnimes = ({search, genre}) => {
   
 }
 
-export default getAnimes 
+export default getAnimes;
