@@ -8,8 +8,6 @@ query {
 
 const getGenres = () => {
   return connect(query)
-
-
 }
 
 
