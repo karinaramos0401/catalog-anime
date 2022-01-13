@@ -14,8 +14,6 @@ const connect = (query, variables) => {
   
   return fetch(url, options)
     .then((response) => response.json())
-                 
-
 }
 
 export default connect
